@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+        
+    <title>project 1</title>
+</head>
+<body >
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        fieldset{
+            text-align: center;
+            width: fit-content;
+        }
+    </style>
+    <h1 style="text-align: center;">WELCOME TO FOODIESCORNER</h1>
+    <hr>
+    <h2>Sign up</h2>
+    <fieldset style="border-radius: 20px;">
+    <form action="mybackend.php" method="POST">
+        <div><p style="text-align: center;"><div>First name</div><input placeholder= "first name" type="text" name="firstname" style="border-radius: 10px;" ></p></div>
+        <div><p style="text-align: center;"><div>last name</div><input placeholder= "last name" type="text"  name= "lastname" style="border-radius: 10px;" ></p></div>
+        <div><p style="text-align: center;"><div>Username</div><input placeholder= "Username" type="text" name= "username" style="border-radius: 10px;" ></p></div>
+        <div><p style="text-align: center;"><div>email</div><input placeholder= "email" type="text" name= "email" style="border-radius: 10px;"></p></div>
+        <div><p style="text-align: center;"><div>password</div><input placeholder= "required" type="password" name="password" style="border-radius: 10px;" ></p></div>
+        <button type="button" onclick="signup();return false">register</button>
+    </form>
+</fieldset>
+<p>Already have an account? Sign in <a href="signin.html"><b>here</b></a></p>
+</body>
+</html>
